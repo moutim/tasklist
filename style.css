@@ -1,0 +1,73 @@
+/* Classes manipuladas via JS */
+.completed {
+    text-decoration: line-through;
+}
+.selected {
+    background-color: rgb(128, 128, 128);
+    padding: 2px;
+    border-radius: 10px;
+}
+/* Regras gerais */
+header em {
+    color: rgba(0, 0, 0, 0.692);
+}
+body {
+    background: rgb(0,180,216);
+    background: radial-gradient(circle, rgba(0,180,216,1) 0%, rgba(2,62,138,1) 100%);
+    background-attachment: fixed;
+}
+.bloco {
+    box-shadow: 0px 10px 13px -7px #000000, 0px 0px 30px 11px rgba(0,0,0,0.6);
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+}
+.bloco-adicionar input {
+    padding: 10px;
+    box-shadow: 0px 10px 13px -7px #000000, 0px 0px 30px 11px rgba(0,0,0,0.1);
+    border: none;
+    border-radius: 10px;
+}
+.bloco-adicionar button {
+    padding: 9px 20px;
+    margin: 0 15px;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    background-color: #00b4d8;
+    border-radius: 10px;
+    color: white;
+    transition: .4s;
+}
+.bloco-adicionar button:hover {
+    box-shadow: 0px 10px 13px -7px #000000, 0px 0px 30px 10px rgba(0,0,0,0.1);
+}
+#lista-tarefas {
+    font-size: 25px;
+}
+
+/* Secao de controles da lista */
+.secao-controles button:hover {
+    box-shadow: 0px 10px 13px -7px #000000, 0px 0px 30px 10px rgba(0,0,0,0.1);
+}
+.secao-controles button {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    margin-right: 5px;
+    transition: .4s;
+}
+.secao-controles #remover-selecionado, #remover-finalizados, #apaga-tudo {
+    background-color: #d62828;
+}
+.secao-controles #mover-cima, #mover-baixo {
+    background-color: #560bad;
+}
+.secao-controles #salvar-tarefas {
+    background-color: #80b918;
+} 
